@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <title>HTML TEXT Basic Page</title>
+        <style>
+            a {
+                font-weight: bold;
+                color: black;
+                font-family: 'Courier New', Courier, monospace;
+            }
+            #a1 {
+                position: fixed;
+                margin-left: 600px;
+                width: 100px;
+                height: 50px;
+                background-color: rgba(0, 255, 255,0.5);
+                text-align: center;
+            }
+            #a2 {
+                position: fixed;
+                margin-left: 710px;
+                width: 100px;
+                height: 50px;
+                background-color: aqua;
+                text-align: center;
+            }
+            #a3 {
+                position: fixed;
+                margin-left: 820px;
+                width: 100px;
+                height: 50px;
+                background-color: aqua;
+                text-align: center;
+            }
+            
+            #alpha {
+                height: 1500px;
+            }
+            #Beta {
+                height: 1500px;
+            }
+            #Gamma {
+                height: 1500px;
+            }
+        </style>
+    </head>
+    <body>
+        <!--아래의 경우 #(id) 경로로 href 를지정하였다. 이럴경우 해당 ID 의 위치로 이동한다 스크롤이 긴 사이트일경우 많이 사용한다-->
+        <a id="a1" href="#alpha">Alpha부분</a>
+        <a id="a2" href="#Beta">Beta부분</a>
+        <a id="a3" href="#Gamma">Gamma부분</a>
+        <hr>
+        <h1 id="alpha">Alpha</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+        <h1 id="Beta">Beta</h1>
+        <p>Vivamus elementum</p>
+        <h1 id="Gamma">Gamma</h1>
+        <p>jfjgkjlhkfhs</p>
+    </body>
+</html>
